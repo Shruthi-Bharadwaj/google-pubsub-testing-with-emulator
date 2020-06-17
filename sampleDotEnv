@@ -1,0 +1,4 @@
+PUBSUB_EMULATOR_HOST=localhost:8085
+PUBSUB_PROJECT_ID = test-project
+TOPIC_NAME = test-topic
+SUBSCRIPTION_NAME = test-topic-subscription-pull
