@@ -1,9 +1,8 @@
+const dataToPublish = require("./data.json");
 module.exports = async (fastify) => {
   try {
     const topicName = process.env.TOPIC_NAME;
-    const data = JSON.stringify({
-      hello: 'world'
-    });
+    const data = JSON.stringify(dataToPublish);
 
     const dataBuffer = Buffer.from(data);
 
